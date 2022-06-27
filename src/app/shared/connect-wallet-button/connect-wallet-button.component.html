@@ -1,0 +1,55 @@
+<button *ngIf="walletAddress" class="btn btn-outline-dark" (click)="disconnectWallet()">
+  {{walletAddress ? getShrinkWalletAddress(): 'Connect Wallet'}}
+</button>
+
+<button *ngIf="!walletAddress" class="btn btn-outline-dark" (click)="connectWallet()">
+  Connect Wallet
+</button>
+<br>
+
+<button *ngIf="walletAddress" class="btn btn-outline-dark" (click)="mintNftHandler()">
+  Mint (0.001 eth)
+</button>
+
+<button class="btn btn-outline-dark"><a style="text-decoration:none ;" href="https://testnets.opensea.io/account">Click
+    here</a></button>
+
+<div *ngIf="walletAddress" class="list-item">
+  <div class="item">
+    <img src="../../../assets/17.png" alt="">
+  </div>
+  <div class="item">
+    <img src="../../../assets/01.png" alt="">
+  </div>
+  <div class="item">
+    <img src="../../../assets/02.png" alt="">
+  </div>
+  <div class="item">
+    <img src="../../../assets/03.png" alt="">
+  </div>
+  <div class="item">
+    <img src="../../../assets/04.png" alt="">
+  </div>
+  <div class="item">
+    <img src="../../../assets/05.png" alt="">
+  </div>
+  <div class="item">
+    <img src="../../../assets/06.png" alt="">
+  </div>
+  <div class="item">
+    <img src="../../../assets/07.png" alt="">
+  </div>
+  <div class="item">
+    <img src="../../../assets/08.png" alt="">
+  </div>
+  <div class="item">
+    <img src="../../../assets/09.png" alt="">
+  </div>
+  <div class="item">
+    <img src="../../../assets/10.png" alt="">
+  </div>
+  <div class="item">
+    <img src="../../../assets/11.png" alt="">
+  </div>
+
+</div>

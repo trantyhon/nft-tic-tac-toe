@@ -1,0 +1,26 @@
+.btn-outline-dark {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 40px;
+}
+
+.list-item {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    max-width: 1110px;
+    margin: 0 auto;
+    gap: 30px;
+}
+
+.item {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+img {
+    width: 100%;
+    border-radius: 8px;
+
+}
